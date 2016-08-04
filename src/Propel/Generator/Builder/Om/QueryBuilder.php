@@ -158,7 +158,7 @@ class QueryBuilder extends AbstractOMBuilder
  *";
 
             $script .= "
- * @method     $queryClass joinWith" . $relationName . "(\$joinType = Criteria::INNER_JOIN) Adds a join clause and with to the query using the " . $relationName . " relation
+ * @method     $queryClass joinWith" . $relationName . "() Adds a INNER JOIN clause and with to the query using the " . $relationName . " relation
  *";
 
             $script .= "
